@@ -3,7 +3,7 @@ import { auth, db } from '../firebase';
 import { collection, addDoc, doc, getDoc, updateDoc, query, where, onSnapshot } from 'firebase/firestore';
 import { EmailAuthProvider, reauthenticateWithCredential, updatePassword, signOut } from 'firebase/auth';
 import { useNavigate } from 'react-router-dom';
-import logo from './logo.png';
+// import logo from './logo.png';
 
 function EmployeeDashboard() {
   const [employee, setEmployee] = useState({});
