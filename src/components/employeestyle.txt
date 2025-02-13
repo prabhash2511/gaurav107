@@ -1,0 +1,158 @@
+.page-container {
+          min-height: 100vh;
+          display: flex;
+          flex-direction: column;
+        }
+        .navbar {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 1rem 2rem;
+          background-color: #007bff;
+          color: white;
+          box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .left-section, .right-section {
+          flex: 1;
+          display: flex;
+          align-items: center;
+        }
+        .center-section {
+          flex: 2;
+          text-align: center;
+          font-size: 1.5rem;
+          font-weight: bold;
+        }
+        .right-section {
+          justify-content: flex-end;
+          gap: 1rem;
+        }
+        .logo {
+          height: 40px;
+          width: auto;
+        }
+        .nav-button {
+          background: none;
+          border: 2px solid white;
+          color: white;
+          padding: 8px 16px;
+          border-radius: 4px;
+          cursor: pointer;
+          text-decoration: none;
+        }
+        .nav-button:hover {
+          background-color: rgba(255,255,255,0.1);
+        }
+        .form-container {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex: 1;
+          background-color: #f0f0f0;
+          padding: 20px;
+        }
+        .form-wrapper {
+          background: white;
+          padding: 20px;
+          border-radius: 8px;
+          box-shadow: 0 0 10px rgba(0,0,0,0.1);
+          width: 300px;
+          text-align: center;
+        }
+        .form-group {
+          margin-bottom: 15px;
+          text-align: left;
+        }
+        label {
+          display: block;
+          margin-bottom: 5px;
+        }
+        input, select {
+          width: 100%;
+          padding: 8px;
+          box-sizing: border-box;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+        }
+        button {
+          width: 100%;
+          padding: 10px;
+          background-color: #007bff;
+          color: white;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+        }
+        button:hover {
+          background-color: #0056b3;
+        }
+        .error {
+          color: red;
+        }
+
+
+
+
+        .dashboard-content {
+          padding: 20px;
+          display: grid;
+          gap: 30px;
+        }
+        .section {
+          background: white;
+          padding: 20px;
+          border-radius: 8px;
+          box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .task-list, .leave-history {
+          display: grid;
+          gap: 15px;
+        }
+        .task-card, .leave-card {
+          padding: 15px;
+          border: 1px solid #ddd;
+          border-radius: 4px;
+        }
+        .task-status select {
+          margin-left: 10px;
+          padding: 5px;
+        }
+        .status-approved {
+          color: green;
+        }
+        .status-pending {
+          color: orange;
+        }
+        .status-rejected {
+          color: red;
+        }
+        .modal {
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background: rgba(0,0,0,0.5);
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+        .modal-content {
+          background: white;
+          padding: 20px;
+          border-radius: 8px;
+          width: 400px;
+        }
+        .form-group {
+          margin-bottom: 15px;
+        }
+        .form-group label {
+          display: block;
+          margin-bottom: 5px;
+        }
+        .form-group input, .form-group select, .form-group textarea {
+          width: 100%;
+          padding: 8px;
+          border: 1px solid #ddd;
+          border-radius: 4px;
+        }
